@@ -11,7 +11,7 @@ import org.brunocvcunha.instagram4j.Instagram4j;
 public class NewClass {
     public static void main(String[] args){
         System.out.println("STARTED");
-        Instagram4j instagram = Instagram4j.builder().username("aydinlatmaurunleri").password("YokArtik1").build();
+        Instagram4j instagram = Instagram4j.builder().username("").password("").build();
         instagram.setup();
         try {
             instagram.login();
